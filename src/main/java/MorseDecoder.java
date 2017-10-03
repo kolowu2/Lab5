@@ -45,6 +45,10 @@ public class MorseDecoder {
     private static double[] binWavFilePower(final WavFile inputFile)
             throws IOException, WavFileException {
 
+        for (int i= 0; i<= inputFile.length; i++) {
+
+        }
+
         /*
          * We should check the results of getNumFrames to ensure that they are safe to cast to int.
          */
